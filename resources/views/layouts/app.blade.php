@@ -49,6 +49,45 @@
     @yield('content')
 </main>
 
+<!-- Foot Contact Details -->
+<div class="jumbotron jumbotron-fluid" style="padding-bottom: 0px">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-4">
+                <p class="text-muted">
+                    Tel: 01573 123 456<br>
+                    <br>
+                    Address:<br>
+                    123 The Square<br>
+                    Kelso<br>
+                    TD5 1AB<br>
+                    <br>
+                    Email: info@tweedpodiatry.com
+                </p>
+            </div>
+            <div class="col-4 pull-right">
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com" target="_blank">
+                            <i class="fa fa-instagram fa-3x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <i class="fa fa-facebook fa-3x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com" target="_blank">
+                            <i class="fa fa-linkedin fa-3x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Footer -->
 <footer>
     <div class="container">
