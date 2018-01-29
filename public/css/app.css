@@ -1,4 +1,158 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);html,
+body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  height: 100vh;
+  margin: 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+#options {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, auto);
+}
+
+#options .large {
+  grid-column: span 12;
+}
+
+#options .large img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#options .medium {
+  grid-column: span 12;
+  grid-row: span 4;
+}
+
+#options .medium img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#options .small {
+  grid-column: span 12;
+}
+
+#options .small img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 576px) {
+  #options .large {
+    grid-column: span 6;
+    grid-row: span 4;
+  }
+
+  #options .medium {
+    grid-column: span 12;
+    grid-row: span 2;
+  }
+
+  #options .small {
+    grid-column: span 6;
+    grid-row: span 2;
+  }
+}
+
+@media (min-width: 768px) {
+  #options .large {
+    grid-column: span 6;
+    grid-row: span 4;
+  }
+
+  #options .medium {
+    grid-column: span 6;
+    grid-row: 6/span 4;
+  }
+
+  #options .small {
+    grid-column: span 3;
+  }
+}
+
+@media (min-width: 1200px) {
+  #options .large {
+    grid-column: span 4;
+    grid-row: span 12;
+  }
+
+  #options .medium {
+    grid-column: span 4;
+    grid-row: span 6;
+  }
+
+  #options .small {
+    grid-column: span 2;
+    grid-row: span 6;
+  }
+}
+
+#options .hover img {
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#options .hover :hover img {
+  -webkit-filter: grayscale(100%) blur(3px);
+  filter: grayscale(100%) blur(3px);
+}
+
+/*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.

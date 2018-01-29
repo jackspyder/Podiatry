@@ -1,0 +1,95 @@
+//place this component within the master layout grid and declare new component grid.
+#options {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, auto);
+
+  .large {
+    grid-column: span 12;
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .medium {
+    grid-column: span 12;
+    grid-row: span 4;
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .small {
+    grid-column: span 12;
+    img {
+      object-fit: cover;
+    }
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) {
+    .large {
+      grid-column: span 6;
+      grid-row: span 4;
+    }
+    .medium {
+      grid-column: span 12;
+      grid-row: span 2;
+    }
+    .small {
+      grid-column: span 6;
+      grid-row: span 2;
+    }
+  }
+
+  //fucking do something
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    .large {
+      grid-column: span 6;
+      grid-row: span 4;
+    }
+    .medium {
+      grid-column: span 6;
+      grid-row: 6/span 4;
+    }
+    .small {
+      grid-column: span 3;
+    }
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    .large {
+      grid-column: span 4;
+      grid-row: span 12;
+    }
+
+    .medium {
+      grid-column: span 4;
+      grid-row: span 6;
+    }
+
+    .small {
+      grid-column: span 2;
+      grid-row: span 6;
+    }
+  }
+
+  //test
+  .hover img {
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .hover :hover img {
+    -webkit-filter: grayscale(100%) blur(3px);
+    filter: grayscale(100%) blur(3px);
+  }
+}

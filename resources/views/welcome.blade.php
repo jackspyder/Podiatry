@@ -1,85 +1,10 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Laravel</title>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-    <!-- Styles -->
-    <style>
-        html, body {
-            background-color: #fff;
-            color: #636b6f;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 100;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .full-height {
-            height: 100vh;
-        }
-
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        .position-ref {
-            position: relative;
-        }
-
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
-        }
-
-        .content {
-            text-align: center;
-        }
-
-        .title {
-            font-size: 84px;
-        }
-
-        .links > a {
-            color: #636b6f;
-            padding: 0 25px;
-            font-size: 12px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-
-        .m-b-md {
-            margin-bottom: 30px;
-        }
-    </style>
-</head>
-<body>
+@extends('layouts.app')
+@section('content')
     <div class="flex-center position-ref full-height">
-        @if (Route::has('login'))
-            <div class="top-right links">
-                @auth
-                    <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                        @endauth
-            </div>
-        @endif
 
         <div class="content">
             <div class="title m-b-md">
-                Laravel
+                Coming Soon
             </div>
 
             <div class="links">
@@ -91,5 +16,44 @@
             </div>
         </div>
     </div>
-</body>
-</html>
+
+    <section id="options" class="bg-light">
+        <div class="large hover">
+            <a href="{{url('/conditions')}}">
+                <img class="img-fluid" src="http://placehold.it/640x600" title="CONDITON">
+            </a>
+        </div>
+
+        <div class="medium hover">
+            <a href="{{url('/services')}}">
+                <img class="img-fluid" src="http://placehold.it/640x300" title="SERVICE">
+            </a>
+        </div>
+
+        <div class="large hover">
+            <a href="{{url('/book')}}">
+                <img class="img-fluid" src="http://placehold.it/640x600" title="BOOK">
+            </a>
+        </div>
+
+        <div class="small hover">
+            <a href="{{url('/blog')}}">
+                <img class="img-fluid" src="http://placehold.it/320x300" title="Blog">
+            </a>
+        </div>
+
+        <div class="small hover">
+            <a href="{{url('/contact')}}">
+                <img class="img-fluid" src="http://placehold.it/320x300" title="Contact">
+            </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About section</h1>
+    </section>
+
+    <section id="timeline" class="bg-light">
+        <h1>Timeline Section</h1>
+    </section>
+@endsection
