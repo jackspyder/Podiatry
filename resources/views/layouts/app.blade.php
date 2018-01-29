@@ -48,6 +48,31 @@
 <main>
     @yield('content')
 </main>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-md-4">
+                <span>Website Produced by <a href="#">Jack Powell</a></span>
+            </div>
+            <div class="col-md-4 text-center">
+                <span class="copyright">Copyright &copy; tweedpodiatry.com 2017</span>
+            </div>
+            <div class="col-md-4 text-right">
+                <ul class="list-inline quicklinks">
+                    <li class="list-inline-item">
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">Terms of Use</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
 <!--Scripts-->
 <script src="{{ asset('js/app.js') }}"></script>
 </body>
