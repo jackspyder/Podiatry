@@ -3,6 +3,10 @@
   grid-row: 7/span 3;
   grid-column: span 12;
 
+  h5{
+    padding-top: 2.3rem;
+  }
+
   .timeline {
     position: relative;
     padding: 0;
@@ -57,9 +61,9 @@
         margin-left: 0;
         text-align: center;
         color: white;
-        border: 7px solid #f1f1f1;
+        border: 7px solid #9AD3D7;
         border-radius: 100%;
-        background-color: $primary;
+        background-color: #9AD3D7;
         h4 {
           font-size: 10px;
           line-height: 14px;

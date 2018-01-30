@@ -1,6 +1,5 @@
-
 // Body
-$body-bg: #fff;
+$body-bg: #FFF;
 
 // Borders
 $laravel-border-color: darken($body-bg, 10%);
@@ -9,7 +8,7 @@ $list-group-border-color: $laravel-border-color;
 $card-border-color: $laravel-border-color;
 
 // Brands
-$primary: #3097D1;
+$primary: #9AD3D7;
 $info: #8eb4cb;
 $success: #2ab27b;
 $warning: #cbb956;
@@ -17,7 +16,7 @@ $danger: #bf5329;
 
 // Typography
 $font-family-sans-serif: "Raleway", sans-serif;
-$font-size-base: .875rem; // 14px
+$font-size-base: 1rem; // 16px - browser default usually.
 $line-height-base: 1.6;
 $text-color: #636b6f;
 
