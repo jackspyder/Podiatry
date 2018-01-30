@@ -3,6 +3,10 @@
     <section id="options" class="bg-light">
         <div class="large hover">
             <a href="{{url('/conditions')}}">
+                <div class="flex-center">
+                    <h3>Conditions</h3>
+                </div>
+
                 <img class="img-fluid" src="{{ asset('storage/pages/placeholders/large.png') }}"
                      alt="link to conditions page">
             </a>
@@ -10,24 +14,29 @@
 
         <div class="medium hover">
             <a href="{{url('/services')}}">
+                <div class="flex-center"><h3>Services</h3></div>
                 <img class="img-fluid" src="{{ asset('storage/pages/placeholders/medium.png') }}" title="SERVICE">
+
             </a>
         </div>
 
         <div class="large hover">
             <a href="{{url('/book')}}">
+                <div class="flex-center"><h3>Booking</h3></div>
                 <img class="img-fluid" src="{{ asset('storage/pages/placeholders/large.png') }}" title="BOOK">
             </a>
         </div>
 
         <div class="small hover">
             <a href="{{url('/blog')}}">
+                <div class="flex-center"><h3>Blog</h3></div>
                 <img class="img-fluid" src="{{ asset('storage/pages/placeholders/small.png') }}" title="Blog">
             </a>
         </div>
 
         <div class="small hover">
             <a href="{{url('/contact')}}">
+                <div class="flex-center"><h3>Contact</h3></div>
                 <img class="img-fluid" src="{{ asset('storage/pages/placeholders/small.png') }}" title="Contact">
             </a>
         </div>

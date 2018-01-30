@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/conditions', 'ConditionsController@index');
+Route::get('/services', 'ServicesController@index'); //s
+Route::get('/book', 'BookingsController@index'); //book
+Route::get('/contact', 'ContactController@index'); //contact
+
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

@@ -49,11 +49,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#"><b>Home</b></a>
-                    <a class="nav-item nav-link" href="#"><b>Services</b></a>
-                    <a class="nav-item nav-link" href="#"><b>Conditions</b></a>
-                    <a class="nav-item nav-link" href="#"><b>Contact/Referral</b></a>
-                    <a class="nav-item nav-link" href="#"><b>Booking</b></a>
+                    <a class="nav-item nav-link" href="{{url('/')}}"><b>Home</b></a>
+                    <a class="nav-item nav-link" href="{{url('/services')}}"><b>Services</b></a>
+                    <a class="nav-item nav-link" href="{{url('/conditions')}}"><b>Conditions</b></a>
+                    <a class="nav-item nav-link" href="{{url('/contact')}}"><b>Contact/Referral</b></a>
+                    <a class="nav-item nav-link" href="{{url('/book')}}"><b>Booking</b></a>
                 </div>
             </div>
         </div>
