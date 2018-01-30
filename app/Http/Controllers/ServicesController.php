@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Service;
 
 class ServicesController extends Controller
 {
@@ -13,7 +14,9 @@ class ServicesController extends Controller
      */
     public function index()
     {
-        return view('services.index');
+        $services = Service::orderBy('created_at')->get();
+
+        return view('services.index', compact('services'));
     }
 
     /**
@@ -45,7 +48,9 @@ class ServicesController extends Controller
      */
     public function show($id)
     {
-        //
+        $service = Service::findOrFail($id);
+
+        return view('services.show', compact('service'));
     }
 
     /**

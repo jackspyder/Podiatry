@@ -16,8 +16,12 @@ Route::get('/', function () {
 });
 
 Route::get('/conditions', 'ConditionsController@index');
+Route::get('/conditions/{condition}/', 'ConditionsController@show');
+
 Route::get('/services', 'ServicesController@index'); //s
+
 Route::get('/book', 'BookingsController@index'); //book
+
 Route::get('/contact', 'ContactController@index'); //contact
 
 

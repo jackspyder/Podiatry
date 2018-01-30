@@ -55,6 +55,12 @@ h5 {
   text-transform: uppercase;
 }
 
+nav {
+  background-color: rgba(154, 211, 215, 0.92);
+  border-top: 1px solid;
+  border-color: #d0f5fb;
+}
+
 #foot-panel {
   color: blue;
 }
@@ -378,6 +384,40 @@ h5 {
   #timeline .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+
+#conditions {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, auto);
+}
+
+#conditions h3 {
+  position: absolute;
+  z-index: 1;
+  color: whitesmoke;
+  padding-top: 3rem;
+}
+
+#conditions .medium {
+  grid-column: span 4;
+  grid-row: span 1;
+}
+
+#conditions .medium img {
+  width: 100%;
+}
+
+#conditions .hover img {
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#conditions .hover :hover img {
+  -webkit-filter: grayscale(100%) blur(3px);
+  filter: grayscale(100%) blur(3px);
 }
 
 /*!
