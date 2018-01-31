@@ -4,7 +4,11 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, auto);
 
-  h3{
+  img {
+    width: 100%;
+  }
+
+  h3 {
     position: absolute;
     z-index: 1;
     color: whitesmoke;
@@ -13,24 +17,15 @@
 
   .large {
     grid-column: span 12;
-    img {
-      object-fit: cover;
-    }
   }
 
   .medium {
     grid-column: span 12;
     grid-row: span 4;
-    img {
-      object-fit: cover;
-    }
   }
 
   .small {
     grid-column: span 12;
-    img {
-      object-fit: cover;
-    }
   }
 
   // Small devices (landscape phones, 576px and up)
@@ -86,17 +81,5 @@
       grid-column: span 2;
       grid-row: span 6;
     }
-  }
-
-  //test
-  .hover img {
-    -webkit-filter: grayscale(0) blur(0);
-    filter: grayscale(0) blur(0);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-  }
-  .hover :hover img {
-    -webkit-filter: grayscale(100%) blur(3px);
-    filter: grayscale(100%) blur(3px);
   }
 }

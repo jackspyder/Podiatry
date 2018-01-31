@@ -55,6 +55,18 @@ h5 {
   text-transform: uppercase;
 }
 
+.hover img {
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.hover :hover img {
+  -webkit-filter: grayscale(100%) blur(3px);
+  filter: grayscale(100%) blur(3px);
+}
+
 nav {
   background-color: rgba(154, 211, 215, 0.92);
   border-top: 1px solid;
@@ -80,6 +92,10 @@ nav {
   grid-template-rows: repeat(12, auto);
 }
 
+#options img {
+  width: 100%;
+}
+
 #options h3 {
   position: absolute;
   z-index: 1;
@@ -91,28 +107,13 @@ nav {
   grid-column: span 12;
 }
 
-#options .large img {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 #options .medium {
   grid-column: span 12;
   grid-row: span 4;
 }
 
-#options .medium img {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 #options .small {
   grid-column: span 12;
-}
-
-#options .small img {
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 @media (min-width: 576px) {
@@ -163,18 +164,6 @@ nav {
     grid-column: span 2;
     grid-row: span 6;
   }
-}
-
-#options .hover img {
-  -webkit-filter: grayscale(0) blur(0);
-  filter: grayscale(0) blur(0);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-
-#options .hover :hover img {
-  -webkit-filter: grayscale(100%) blur(3px);
-  filter: grayscale(100%) blur(3px);
 }
 
 #timeline {
@@ -406,18 +395,6 @@ nav {
 
 #conditions .medium img {
   width: 100%;
-}
-
-#conditions .hover img {
-  -webkit-filter: grayscale(0) blur(0);
-  filter: grayscale(0) blur(0);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-
-#conditions .hover :hover img {
-  -webkit-filter: grayscale(100%) blur(3px);
-  filter: grayscale(100%) blur(3px);
 }
 
 /*!

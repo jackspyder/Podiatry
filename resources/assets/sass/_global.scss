@@ -43,6 +43,19 @@ h5 {
   text-transform: uppercase;
 }
 
+//Hover image link fade out
+//test
+.hover img {
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover :hover img {
+  -webkit-filter: grayscale(100%) blur(3px);
+  filter: grayscale(100%) blur(3px);
+}
+
 //colour it
 nav {
   background-color: $background;
