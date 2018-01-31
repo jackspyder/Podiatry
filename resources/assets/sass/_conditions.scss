@@ -1,0 +1,21 @@
+#conditions {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, auto);
+
+  h3 {
+    position: absolute;
+    z-index: 1;
+    color: whitesmoke;
+    padding-top: 3rem;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .medium {
+    grid-column: span 4;
+    grid-row: span 1;
+  }
+}

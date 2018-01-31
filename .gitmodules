@@ -1,0 +1,3 @@
+[submodule "laradock-podiatry"]
+	path = laradock-podiatry
+	url = https://github.com/Laradock/laradock.git

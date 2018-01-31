@@ -1,0 +1,76 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding-top: 2rem;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+//masthead - split out.
+.horiz-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+//Hover image link fade out
+//test
+.hover img {
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover :hover img {
+  -webkit-filter: grayscale(100%) blur(3px);
+  filter: grayscale(100%) blur(3px);
+}
+
+//colour it
+nav {
+  background-color: $background;
+  border-top: 1px solid;
+  border-color: #d0f5fb;
+}
+
+#foot-panel {
+  color: blue;
+}
+
+#foot-panel {
+  padding-top: 2rem;
+  background-color: whitesmoke;
+  .fa {
+    height: 4rem;
+  }
+}
