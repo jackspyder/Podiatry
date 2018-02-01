@@ -90,6 +90,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, auto);
+  grid-gap: 3px;
 }
 
 #options img {
@@ -388,13 +389,13 @@ nav {
   padding-top: 3rem;
 }
 
+#conditions img {
+  width: 100%;
+}
+
 #conditions .medium {
   grid-column: span 4;
   grid-row: span 1;
-}
-
-#conditions .medium img {
-  width: 100%;
 }
 
 /*!

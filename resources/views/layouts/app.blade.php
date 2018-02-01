@@ -82,18 +82,20 @@
                 <div class="col-4 pull-right flex-center">
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
-                            <a href="https://www.instagram.com" rel="noopener">
-                                <i class="fa fa-instagram fa-3x"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
                             <a href="https://www.facebook.com" rel="noopener">
-                                <i class="fa fa-facebook fa-3x"></i>
+                                <i class="fa fa-facebook fa-4x"></i>
                             </a>
                         </li>
+
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com" rel="noopener">
+                                <i class="fa fa-instagram fa-4x"></i>
+                            </a>
+                        </li>
+
                         <li class="list-inline-item">
                             <a href="https://www.linkedin.com" rel="noopener">
-                                <i class="fa fa-linkedin fa-3x"></i>
+                                <i class="fa fa-linkedin fa-4x"></i>
                             </a>
                         </li>
                     </ul>
