@@ -1,16 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <section id="options" class="bg-light">
-        <div class="large hover">
-            <a href="{{url('/conditions')}}">
-                <div class="flex-center">
-                    <h3>Conditions</h3>
-                </div>
 
-                <img class="img-fluid" src="{{ asset('storage/pages/placeholders/large.png') }}"
-                     alt="link to conditions page">
-            </a>
-        </div>
 
         <div class="medium hover">
             <a href="{{url('/services')}}">
@@ -21,11 +12,29 @@
         </div>
 
         <div class="large hover">
-            <a href="{{url('/book')}}">
-                <div class="flex-center"><h3>Booking</h3></div>
-                <img class="img-fluid" src="{{ asset('storage/pages/placeholders/large.png') }}" title="BOOK">
+            <a href="{{url('/conditions')}}">
+                <div class="flex-center">
+                    <h3>Conditions</h3>
+                </div>
+                <img class="img-fluid" src="http://placehold.it/640x600/0F5759/FFFFFF"
+                     alt="link to conditions page">
             </a>
         </div>
+
+        <div class="small hover">
+            <a href="{{url('/blog')}}">
+                <div class="flex-center"><h3>About Me</h3></div>
+                <img class="img-fluid" src="{{ asset('storage/pages/placeholders/small.png') }}" title="me">
+            </a>
+        </div>
+
+        <div class="small hover">
+            <a href="{{url('/blog')}}">
+                <div class="flex-center"><h3>About Clinic</h3></div>
+                <img class="img-fluid" src="{{ asset('storage/pages/placeholders/small.png') }}" title="Clinic">
+            </a>
+        </div>
+
 
         <div class="small hover">
             <a href="{{url('/blog')}}">
@@ -40,7 +49,34 @@
                 <img class="img-fluid" src="{{ asset('storage/pages/placeholders/small.png') }}" title="Contact">
             </a>
         </div>
+
+        <div class="medium hover">
+            <a href="{{url('/book')}}">
+                <div class="flex-center"><h3>Booking</h3></div>
+                <img class="img-fluid" src="{{ asset('storage/pages/placeholders/medium.png') }}" title="BOOK">
+            </a>
+        </div>
     </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <h2 class="section-heading text-center">About Us</h2>
+                <p class="text-muted">
+                    At Tweed Podiatry, we understand that foot and ankle problems can be incredibly painful and have a
+                    real impact on your quality of life and your ability to enjoy activities of sport and daily living.
+                    This is where we come in. Tweed Podiatry was founded to set the standard for foot and ankle care in
+                    the Scottish Borders. Our expert team care passionately about providing a professional and friendly
+                    service to every patient we meet and will work closely with you to understand the nature of your
+                    problem and the strategies we can implement to get you moving forward towards your goals.
+                    <br>
+                    ~ Tweed Podiatry, The foot and ankle experts.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
 
     <section id="about" class="container">
         <div class="row">
@@ -207,7 +243,7 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>September 2017</h4>
-                                <h4 class="subheading">Appointed as Part-time Lecturer at QMU</h4>
+                                <h4 class="subheading">Appointed as visiting Lecturer at QMU</h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">Appointed as a lecturer in the field of Podiatry at Queen
@@ -218,9 +254,9 @@
                     </li>
 
                     <li>
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid"
-                                 src="{{ asset('storage/pages/placeholders/tiny.png') }}" alt="">
+                        <div class="timeline-image" style="background-color: white">
+                            <img class="rounded-circle"
+                                 src="{{asset('/storage/pages/home/logo.png')}}" style="width: 100px; z-index: 1; padding-top: 1rem" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">

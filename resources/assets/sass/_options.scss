@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, auto);
+  grid-gap: 3px;
 
   img {
     width: 100%;
