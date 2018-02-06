@@ -24,6 +24,7 @@ Route::get('/book', 'BookingsController@index'); //book
 
 Route::get('/contact', 'ContactController@index'); //contact
 
+Route::get('/about', 'HomeController@about');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

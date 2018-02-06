@@ -23,7 +23,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center justify-content-between">
-                    <span class="navbar-text"><b>Call: 01573 224 224  |  Email: enquieries@tweedpodiatry.com</b></span>
+                    <span class="navbar-text"><b>Call: 01573 228 098  |  Email: robert@tweedpodiatry.com</b></span>
                 </div>
             </div>
         </div>
@@ -54,6 +54,7 @@
                     <a class="nav-item nav-link" href="{{url('/conditions')}}"><b>Conditions</b></a>
                     <a class="nav-item nav-link" href="{{url('/contact')}}"><b>Contact/Referral</b></a>
                     <a class="nav-item nav-link" href="{{url('/book')}}"><b>Booking</b></a>
+                    <a class="nav-item nav-link" href="{{url('/about')}}"><b>About</b></a>
                 </div>
             </div>
         </div>
@@ -69,20 +70,21 @@
             <div class="row justify-content-between">
                 <div class="col-4">
                     <p class="text-muted">
-                        Tel: 01573 123 456<br>
+                        Tel: 01573 228 098<br>
                         <br>
                         Address:<br>
-                        123 The Square<br>
+                        40-41 The Square<br>
                         Kelso<br>
-                        TD5 1AB<br>
+                        Roxburghshire<br>
+                        TD5 7HL<br>
                         <br>
-                        Email: info@tweedpodiatry.com
+                        Email: robert@tweedpodiatry.com
                     </p>
                 </div>
                 <div class="col-4 pull-right flex-center">
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com" rel="noopener">
+                            <a href="https://www.facebook.com/tweedpodiatry" rel="noopener">
                                 <i class="fa fa-facebook fa-4x"></i>
                             </a>
                         </li>
@@ -94,7 +96,7 @@
                         </li>
 
                         <li class="list-inline-item">
-                            <a href="https://www.linkedin.com" rel="noopener">
+                            <a href="https://www.linkedin.com/in/robert-mccririck-0390445b/" target="_blank" rel="noopener">
                                 <i class="fa fa-linkedin fa-4x"></i>
                             </a>
                         </li>
