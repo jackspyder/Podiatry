@@ -5,15 +5,15 @@
         <section id="heading">
             <div class="row justify-content-center">
                 <div class="col-lg-5 text-center">
-                    <h2 class="section-heading">Conditions</h2>
-                    <p class="text-muted">Browse through our list of common pediatric conditions that may arise.
+                    <h2 class="heading">Conditions</h2>
+                    <p class="text-muted">Browse through our list of common podiatric conditions that may arise.
                         <br>
                         Please note, this list is not exhaustive.</p>
                 </div>
             </div>
         </section>
 
-        <section>
+        <section id="conditions">
             <div class="row justify-content-around">
                 @foreach($conditions as $condition)
                     <div class="col-lg-4 col-md-6 text-center hover">

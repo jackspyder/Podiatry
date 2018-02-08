@@ -16,7 +16,7 @@
 </head>
 <body>
 <div id="app">
-    <section class="navbar-light themed">
+    <div class="navbar-light themed">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center justify-content-between">
@@ -24,13 +24,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--masthead-->
     <header id="masthead bg-light" style="height: 250px; background-color: whitesmoke">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 horiz-align">
-                    <img src="{{asset('/storage/pages/home/logo.png')}}" height="200" width="150">
+                    <img src="{{asset('/storage/logo.webp')}}" height="200" width="150">
                     <h1 class="title">Tweed Podiatry</h1>
                 </div>
             </div>
@@ -60,11 +60,11 @@
         @yield('content')
 
     <!-- Foot Contact Details -->
-    <section id="foot-panel" class="themed navbar-light">
+    <footer class="themed navbar-light">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-4">
-                    <p class="text-muted">
+                    <p class="text-muted align-self-center">
                         <b>Tel:</b> 01573 228 098<br>
                         <br> <b>Email: </b>robert@tweedpodiatry.com
                         <br>
@@ -76,7 +76,7 @@
                     </p>
                 </div>
                 <div class="col-4 pull-right flex-center">
-                    <ul class="list-inline social-buttons">
+                    <ul class="list-inline social-buttons align-self-center">
                         <li class="list-inline-item">
                             <a href="https://www.facebook.com/tweedpodiatry" target="_blank" rel="noopener">
                                 <i class="fa fa-facebook fa-4x"></i>
@@ -96,28 +96,6 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="container">
-        <div class="row justify-content-between">
-            <div class="col-md-4">
-                <span>Website Produced by <a href="https://jpowell.me" rel="noopener">Jack Powell</a></span>
-            </div>
-            <div class="col-md-4 text-center">
-                <span class="copyright">Copyright &copy; tweedpodiatry.com 2017</span>
-            </div>
-            <div class="col-md-4 text-right">
-                <ul class="list-inline quicklinks">
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">Privacy Policy</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">Terms of Use</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </footer>

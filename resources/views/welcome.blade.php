@@ -1,17 +1,17 @@
 @extends('layouts.app')
 @section('content')
     <main>
-        <section id="options" class="bg-light">
+        <section id="options">
             <div class="medium hover">
                 <a class="dim" href="{{url('/services')}}">
                     <div class="flex-center"><h3>Services</h3></div>
-                    <img class="img-fluid" src="{{ asset('/storage/pages/home/ServicesTwo.jpeg') }}" title="SERVICE">
+                    <img class="img-fluid" src="{{ asset('/storage/pages/options/services.webp') }}" title="SERVICE">
                 </a>
             </div>
             <div class="large hover">
                 <a class="dim" href="{{url('/conditions')}}">
                     <div class="flex-center"><h3>Conditions</h3></div>
-                    <img class="img-fluid" src="{{ asset('/storage/pages/home/Conditions.jpeg') }}"
+                    <img class="img-fluid" src="{{ asset('/storage/pages/options/conditions.webp') }}"
                          alt="link to conditions page">
                 </a>
             </div>
@@ -24,19 +24,19 @@
             <div class="small hover">
                 <a class="dim" href="{{url('/blog')}}">
                     <div class="flex-center"><h3>Blog</h3></div>
-                    <img class="img-fluid" src="{{ asset('storage/pages/home/Blog.jpeg') }}" title="Blog">
+                    <img class="img-fluid" src="{{ asset('storage/pages/options/blog.webp') }}" title="Blog">
                 </a>
             </div>
             <div class="small hover">
                 <a class="dim" href="{{url('/contact')}}">
                     <div class="flex-center"><h3>Contact</h3></div>
-                    <img class="img-fluid" src="{{ asset('storage/pages/home/Contact.jpeg') }}" title="Contact">
+                    <img class="img-fluid" src="{{ asset('storage/pages/options/contact.webp') }}" title="Contact">
                 </a>
             </div>
             <div class="medium hover">
                 <a class="dim" href="{{url('/book')}}">
                     <div class="flex-center"><h3>Booking</h3></div>
-                    <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="BOOK">
+                    <img class="img-fluid" src="{{ asset('storage/pages/options/booking.webp') }}" title="BOOK">
                 </a>
             </div>
         </section>
@@ -44,7 +44,7 @@
         <section class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <h2 class="section-heading text-center">Welcome to Tweed Podiatry</h2>
+                    <h2 class="heading text-center">Welcome to Tweed Podiatry</h2>
                     <p class="text-muted">
                         At Tweed Podiatry, we understand that foot, ankle and lower limb problems can be incredibly
                         painful
@@ -72,7 +72,7 @@
         <section class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <h2 class="section-heading text-center">Where are we?</h2>
+                    <h2 class="heading text-center">Where are we?</h2>
                 </div>
             </div>
             <div class="row justify-content-center">

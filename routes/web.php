@@ -19,10 +19,13 @@ Route::get('/conditions', 'ConditionsController@index');
 Route::get('/conditions/{condition}/', 'ConditionsController@show');
 
 Route::get('/services', 'ServicesController@index'); //s
+Route::get('/services/{service}/', 'ServicesController@show');
 
 Route::get('/book', 'BookingsController@index'); //book
 
 Route::get('/contact', 'ContactController@index'); //contact
+Route::get('/contact/public', 'ContactController@public');
+Route::get('/contact/referral', 'ContactController@referral');
 
 Route::get('/about', 'HomeController@about');
 

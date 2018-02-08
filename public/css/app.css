@@ -8,6 +8,14 @@ h5 {
   padding-top: 2rem;
 }
 
+section {
+  padding-bottom: 2rem;
+}
+
+.heading {
+  color: #359497;
+}
+
 body {
   background-color: whitesmoke;
 }
@@ -31,6 +39,10 @@ body {
 .dim {
   -webkit-filter: brightness(80%);
   filter: brightness(80%);
+}
+
+#contact .card {
+  height: 200px;
 }
 
 .card {
@@ -124,7 +136,6 @@ nav {
 
 #options .medium {
   grid-column: span 12;
-  grid-row: span 4;
 }
 
 #options .small {
@@ -134,17 +145,14 @@ nav {
 @media (min-width: 576px) {
   #options .large {
     grid-column: span 6;
-    grid-row: span 4;
   }
 
   #options .medium {
     grid-column: span 12;
-    grid-row: span 2;
   }
 
   #options .small {
     grid-column: span 6;
-    grid-row: span 2;
   }
 }
 
@@ -156,11 +164,12 @@ nav {
 
   #options .medium {
     grid-column: span 6;
-    grid-row: 6/span 4;
+    grid-row: span 2;
   }
 
   #options .small {
     grid-column: span 3;
+    grid-row: span 2;
   }
 }
 

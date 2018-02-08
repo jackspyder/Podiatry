@@ -24,7 +24,6 @@
 
   .medium {
     grid-column: span 12;
-    grid-row: span 4;
   }
 
   .small {
@@ -35,15 +34,12 @@
   @media (min-width: 576px) {
     .large {
       grid-column: span 6;
-      grid-row: span 4;
     }
     .medium {
       grid-column: span 12;
-      grid-row: span 2;
     }
     .small {
       grid-column: span 6;
-      grid-row: span 2;
     }
   }
 
@@ -53,19 +49,16 @@
     .large {
       grid-column: span 6;
       grid-row: span 4;
+
     }
     .medium {
       grid-column: span 6;
-      grid-row: 6/span 4;
+      grid-row: span 2;
     }
     .small {
       grid-column: span 3;
+      grid-row: span 2;
     }
-  }
-
-  // Large devices (desktops, 992px and up)
-  @media (min-width: 992px) {
-
   }
 
   // Extra large devices (large desktops, 1200px and up)

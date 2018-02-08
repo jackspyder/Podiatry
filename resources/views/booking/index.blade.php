@@ -5,10 +5,10 @@
         <section id="heading">
             <div class="row justify-content-center">
                 <div class="col-lg-5 text-center">
-                    <h2 class="section-heading">Booking</h2>
-                    <p class="text-muted">if you're unsure about what type of appointment you require, take a look at
+                    <h2 class="heading">Booking</h2>
+                    <p class="text-muted">If you're unsure about what type of appointment you require, take a look at
                         our
-                        services section or use the contact page to arrange contact with a professional.</p>
+                        services section or use the contact page to arrange contact with a member of our team.</p>
                 </div>
             </div>
         </section>

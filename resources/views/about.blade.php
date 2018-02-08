@@ -6,7 +6,7 @@
         <section id="heading">
             <div class="row justify-content-center">
                 <div class="col-lg-5 text-center">
-                    <h2 class="section-heading">About Us</h2>
+                    <h2 class="heading">About Us</h2>
                     <p class="text-muted">The main ethos of Tweed Podiatry is to make sure the experience of every person
                         visiting the
                         practice is exceptional from start to finish and we aim to achieve this in a number of ways:</p>
@@ -18,7 +18,7 @@
         <div class="row justify-content-center">
 
             <div class="col-md-4">
-                <h5>A Warm Welcome</h5>
+                <h5 class="heading">A Warm Welcome</h5>
                 <p class="text-muted">
                     We want every visitor to feel right at home in our practice. Our friendly and experienced team are
                     on hand to greet you and offer you a tea or coffee in our modern reception area so you can sit back
@@ -26,7 +26,7 @@
                     only too happy to help!
                 </p>
 
-                <h5>Providing Clinical Excellence</h5>
+                <h5 class="heading">Providing Clinical Excellence</h5>
                 <p class="text-muted">
                     We take your experience of being treated by us very seriously. We pride ourselves in offering the
                     highest standards of treatment that are both safe, effective, confidential and evidence-based. To
@@ -34,7 +34,7 @@
                     latest developments in pediatric medicine.
                 </p>
 
-                <h5>Comprehensive Care</h5>
+                <h5 class="heading">Comprehensive Care</h5>
                 <p class="text-muted">
                     Our highly qualified and experienced team are able to deliver exceptional care for all manner of
                     foot,
@@ -44,7 +44,7 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <h5>Empowering Others</h5>
+                <h5 class="heading">Empowering Others</h5>
                 <p class="text-muted">
                     We are real believers in sharing our knowledge and expertise for two important reasons; to help our
                     patients by equipping them with better understanding of the nature of their problem, and to grow a
@@ -53,7 +53,7 @@
                     throughout the year on various lower limb topics to our fellow podiatrists and other colleagues.
                 </p>
 
-                <h5>Always Listening</h5>
+                <h5 class="heading">Always Listening</h5>
                 <p class="text-muted">
                     We see all manner of foot, ankle and lower limb problems in our clinics but what is far more varied
                     are the people who we have the privilege to meet. Everyone has a unique story to tell and we want
@@ -69,7 +69,7 @@
         <hr>
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">How did we get here?</h2>
+                <h2 class="heading">How did we get here?</h2>
                 <h3 class="section-subheading text-muted">Take a look at our journey below.</h3>
             </div>
         </div>
@@ -84,7 +84,7 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>July 2013</h4>
+                                <h4 class="heading">July 2013</h4>
                                 <h4 class="subheading">Graduated with Honours</h4>
                             </div>
                             <div class="timeline-body">
@@ -103,7 +103,7 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>March 2014</h4>
+                                <h4 class="heading">March 2014</h4>
                                 <h4 class="subheading">Transitioned to full time NHS Specialist</h4>
                             </div>
                             <div class="timeline-body">
@@ -120,7 +120,7 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>May 2016</h4>
+                                <h4 class="heading">May 2016</h4>
                                 <h4 class="subheading">Took position in specialist Canadian clinic.</h4>
                             </div>
                             <div class="timeline-body">
@@ -138,7 +138,7 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>July 2017</h4>
+                                <h4 class="heading">July 2017</h4>
                                 <h4 class="subheading">Attained an Msc</h4>
                             </div>
                             <div class="timeline-body">
@@ -155,7 +155,7 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>August 2017</h4>
+                                <h4 class="heading">August 2017</h4>
                                 <h4 class="subheading">Took position at footcare Scotland</h4>
                             </div>
                             <div class="timeline-body">
@@ -172,7 +172,7 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>September 2017</h4>
+                                <h4 class="heading">September 2017</h4>
                                 <h4 class="subheading">Appointed as visiting Lecturer at QMU</h4>
                             </div>
                             <div class="timeline-body">
@@ -191,7 +191,7 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>February 2018</h4>
+                                <h4 class="heading">February 2018</h4>
                                 <h4 class="subheading">Opening of Tweed Podiatry Clinic</h4>
                             </div>
                             <div class="timeline-body">
