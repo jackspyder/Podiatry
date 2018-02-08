@@ -16,9 +16,9 @@ class ContactController extends Controller
         return view('contact.referral');
     }
 
-    public function enquire()
+    public function public()
     {
-        return view('contact.enquire');
+        return view('contact.public');
     }
 
 }

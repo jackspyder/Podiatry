@@ -13,35 +13,32 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <!--Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
 </head>
 <body>
 <div id="app">
-    <section class="navbar-light" style="background: #9AD3D7">
+    <div class="navbar-light themed">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center justify-content-between">
-                    <span class="navbar-text"><b>Call: 01573 224 224  |  Email: enquieries@tweedpodiatry.com</b></span>
+                    <span class="navbar-text"><b>Call: 01573 228 098  |  Email: robert@tweedpodiatry.com</b></span>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--masthead-->
     <header id="masthead bg-light" style="height: 250px; background-color: whitesmoke">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 horiz-align">
-                    <img src="{{asset('/storage/pages/home/logo.png')}}" height="200" width="150">
-                    <h1>Welcome to Tweed Podiatry</h1>
+                    <img src="{{asset('/storage/logo.webp')}}" height="200" width="150">
+                    <h1 class="title">Tweed Podiatry</h1>
                 </div>
             </div>
         </div>
     </header><!--/masthead-->
 
     <!--navigation-->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+    <nav class="navbar navbar-expand-md sticky-top navbar-light">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,74 +51,51 @@
                     <a class="nav-item nav-link" href="{{url('/conditions')}}"><b>Conditions</b></a>
                     <a class="nav-item nav-link" href="{{url('/contact')}}"><b>Contact/Referral</b></a>
                     <a class="nav-item nav-link" href="{{url('/book')}}"><b>Booking</b></a>
+                    <a class="nav-item nav-link" href="{{url('/about')}}"><b>About</b></a>
                 </div>
             </div>
         </div>
     </nav><!--/nav-->
 
-    <main>
         @yield('content')
-    </main>
 
     <!-- Foot Contact Details -->
-    <section id="foot-panel" style="background-color: #9AD3D7">
+    <footer class="themed navbar-light">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-4">
-                    <p class="text-muted">
-                        Tel: 01573 123 456<br>
+                    <p class="text-muted align-self-center">
+                        <b>Tel:</b> 01573 228 098<br>
+                        <br> <b>Email: </b>robert@tweedpodiatry.com
                         <br>
-                        Address:<br>
-                        123 The Square<br>
+                        <b>Address:</b><br>
+                        40-41 The Square<br>
                         Kelso<br>
-                        TD5 1AB<br>
-                        <br>
-                        Email: info@tweedpodiatry.com
+                        Roxburghshire<br>
+                        TD5 7HL<br>
                     </p>
                 </div>
                 <div class="col-4 pull-right flex-center">
-                    <ul class="list-inline social-buttons">
+                    <ul class="list-inline social-buttons align-self-center">
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com" rel="noopener">
+                            <a href="https://www.facebook.com/tweedpodiatry" target="_blank" rel="noopener">
                                 <i class="fa fa-facebook fa-4x"></i>
                             </a>
                         </li>
 
                         <li class="list-inline-item">
-                            <a href="https://www.instagram.com" rel="noopener">
+                            <a href="https://www.instagram.com/tweed_podiatry/" target="_blank" rel="noopener">
                                 <i class="fa fa-instagram fa-4x"></i>
                             </a>
                         </li>
 
                         <li class="list-inline-item">
-                            <a href="https://www.linkedin.com" rel="noopener">
+                            <a href="https://www.linkedin.com/in/robert-mccririck-0390445b/" target="_blank" rel="noopener">
                                 <i class="fa fa-linkedin fa-4x"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="container">
-        <div class="row justify-content-between">
-            <div class="col-md-4">
-                <span>Website Produced by <a href="https://jpowell.me" rel="noopener">Jack Powell</a></span>
-            </div>
-            <div class="col-md-4 text-center">
-                <span class="copyright">Copyright &copy; tweedpodiatry.com 2017</span>
-            </div>
-            <div class="col-md-4 text-right">
-                <ul class="list-inline quicklinks">
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">Privacy Policy</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">Terms of Use</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </footer>

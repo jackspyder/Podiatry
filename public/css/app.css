@@ -8,6 +8,18 @@ h5 {
   padding-top: 2rem;
 }
 
+section {
+  padding-bottom: 2rem;
+}
+
+.heading {
+  color: #359497;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
 .flex-center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,6 +30,32 @@ h5 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.themed {
+  background-color: #9AD3D7;
+}
+
+.dim {
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+}
+
+#contact .card {
+  height: 200px;
+}
+
+.card {
+  height: 300px;
+}
+
+.card-img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
 }
 
 .position-ref {
@@ -37,12 +75,11 @@ h5 {
   padding-top: 1rem;
 }
 
-.content {
-  text-align: center;
-}
-
 .title {
-  font-size: 84px;
+  font-size: 60px;
+  color: #359497;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
 
 .links > a {
@@ -68,33 +105,22 @@ h5 {
 }
 
 nav {
-  background-color: rgba(154, 211, 215, 0.92);
-  border-top: 1px solid;
-  border-color: #d0f5fb;
-}
-
-#foot-panel {
-  color: blue;
-}
-
-#foot-panel {
-  padding-top: 2rem;
-  background-color: whitesmoke;
-}
-
-#foot-panel .fa {
-  height: 4rem;
+  background-color: #9AD3D7;
 }
 
 #options {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, auto);
-  grid-gap: 3px;
 }
 
 #options img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
 }
 
 #options h3 {
@@ -110,7 +136,6 @@ nav {
 
 #options .medium {
   grid-column: span 12;
-  grid-row: span 4;
 }
 
 #options .small {
@@ -120,17 +145,14 @@ nav {
 @media (min-width: 576px) {
   #options .large {
     grid-column: span 6;
-    grid-row: span 4;
   }
 
   #options .medium {
     grid-column: span 12;
-    grid-row: span 2;
   }
 
   #options .small {
     grid-column: span 6;
-    grid-row: span 2;
   }
 }
 
@@ -142,11 +164,12 @@ nav {
 
   #options .medium {
     grid-column: span 6;
-    grid-row: 6/span 4;
+    grid-row: span 2;
   }
 
   #options .small {
     grid-column: span 3;
+    grid-row: span 2;
   }
 }
 
@@ -154,16 +177,19 @@ nav {
   #options .large {
     grid-column: span 4;
     grid-row: span 12;
+    height: 500px;
   }
 
   #options .medium {
     grid-column: span 4;
     grid-row: span 6;
+    height: 250px;
   }
 
   #options .small {
     grid-column: span 2;
     grid-row: span 6;
+    height: 250px;
   }
 }
 
@@ -376,28 +402,6 @@ nav {
   }
 }
 
-#conditions {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, auto);
-}
-
-#conditions h3 {
-  position: absolute;
-  z-index: 1;
-  color: whitesmoke;
-  padding-top: 3rem;
-}
-
-#conditions img {
-  width: 100%;
-}
-
-#conditions .medium {
-  grid-column: span 4;
-  grid-row: span 1;
-}
-
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -478,7 +482,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #FFF;
+  background-color: whitesmoke;
 }
 
 [tabindex="-1"]:focus {
@@ -920,7 +924,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #FFF;
+  background-color: whitesmoke;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -2350,7 +2354,7 @@ pre code {
 }
 
 .table .table {
-  background-color: #FFF;
+  background-color: whitesmoke;
 }
 
 .table-sm th,
@@ -2516,7 +2520,7 @@ pre code {
 }
 
 .table .thead-dark th {
-  color: #FFF;
+  color: whitesmoke;
   background-color: #212529;
   border-color: #32383e;
 }
@@ -2528,7 +2532,7 @@ pre code {
 }
 
 .table-dark {
-  color: #FFF;
+  color: whitesmoke;
   background-color: #212529;
 }
 
@@ -2935,8 +2939,8 @@ select.form-control-lg:not([size]):not([multiple]),
 
 .was-validated .custom-control-input:valid:focus ~ .custom-control-label::before,
 .custom-control-input.is-valid:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #FFF, 0 0 0 0.2rem rgba(42, 178, 123, 0.25);
-          box-shadow: 0 0 0 1px #FFF, 0 0 0 0.2rem rgba(42, 178, 123, 0.25);
+  -webkit-box-shadow: 0 0 0 1px whitesmoke, 0 0 0 0.2rem rgba(42, 178, 123, 0.25);
+          box-shadow: 0 0 0 1px whitesmoke, 0 0 0 0.2rem rgba(42, 178, 123, 0.25);
 }
 
 .was-validated .custom-file-input:valid ~ .custom-file-label,
@@ -3052,8 +3056,8 @@ select.form-control-lg:not([size]):not([multiple]),
 
 .was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before,
 .custom-control-input.is-invalid:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #FFF, 0 0 0 0.2rem rgba(191, 83, 41, 0.25);
-          box-shadow: 0 0 0 1px #FFF, 0 0 0 0.2rem rgba(191, 83, 41, 0.25);
+  -webkit-box-shadow: 0 0 0 1px whitesmoke, 0 0 0 0.2rem rgba(191, 83, 41, 0.25);
+          box-shadow: 0 0 0 1px whitesmoke, 0 0 0 0.2rem rgba(191, 83, 41, 0.25);
 }
 
 .was-validated .custom-file-input:invalid ~ .custom-file-label,
@@ -4463,8 +4467,8 @@ tbody.collapse.show {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #FFF, 0 0 0 0.2rem rgba(15, 87, 89, 0.25);
-          box-shadow: 0 0 0 1px #FFF, 0 0 0 0.2rem rgba(15, 87, 89, 0.25);
+  -webkit-box-shadow: 0 0 0 1px whitesmoke, 0 0 0 0.2rem rgba(15, 87, 89, 0.25);
+          box-shadow: 0 0 0 1px whitesmoke, 0 0 0 0.2rem rgba(15, 87, 89, 0.25);
 }
 
 .custom-control-input:active ~ .custom-control-label::before {
@@ -4732,8 +4736,8 @@ tbody.collapse.show {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #FFF;
-  border-color: #dee2e6 #dee2e6 #FFF;
+  background-color: whitesmoke;
+  border-color: #dee2e6 #dee2e6 whitesmoke;
 }
 
 .nav-tabs .dropdown-menu {
@@ -5321,7 +5325,7 @@ tbody.collapse.show {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid #e6e5e5;
+  border: 1px solid #dcdbdb;
   border-radius: 0.25rem;
 }
 
@@ -5372,7 +5376,7 @@ tbody.collapse.show {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid #e6e5e5;
+  border-bottom: 1px solid #dcdbdb;
 }
 
 .card-header:first-child {
@@ -5386,7 +5390,7 @@ tbody.collapse.show {
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid #e6e5e5;
+  border-top: 1px solid #dcdbdb;
 }
 
 .card-footer:last-child {
@@ -6103,7 +6107,7 @@ tbody.collapse.show {
   padding: 0.75rem 1.25rem;
   margin-bottom: -1px;
   background-color: #fff;
-  border: 1px solid #e6e5e5;
+  border: 1px solid #dcdbdb;
 }
 
 .list-group-item:first-child {

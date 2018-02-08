@@ -1,19 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
+    <main class="container-fluid">
     <section>
-        <div class="container">
-
-            {{--{!! $condition->body !!}--}}
-
-            <img src="/storage/{{$condition->image}}" style="width: 100%">
-            <div class="col-8 offset-2">
-                <h2 class="section-heading text-center">{{ $condition->title }}</h2>
-
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h2 class="heading text-center">{{ $condition->title }}</h2>
+                <img src="/storage/{{$condition->image}}" style="width: 100%">
                 {!! $condition->body !!}
             </div>
-
         </div>
+
     </section>
+    </main>
 @endsection
 
