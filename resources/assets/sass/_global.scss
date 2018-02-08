@@ -6,16 +6,29 @@ h5 {
   padding-top: 2rem;
 }
 
+body{
+  background-color: whitesmoke;
+}
+
 .flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.themed{
+  background-color: $background;
+}
+
 .dim {
   -webkit-filter: brightness(80%);
   filter: brightness(80%);
 }
+
+.card {
+  height: 300px;
+}
+
 
 .card-img{
   width: 100%;
@@ -34,10 +47,14 @@ h5 {
   align-items: center;
   justify-content: center;
   padding-top: 1rem;
-
 }
+
 .title {
-  font-size: 84px;
+  //#636b6f old font
+  font-size: 60px;
+  color: #359497;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
 
 .links > a {
@@ -62,21 +79,7 @@ h5 {
   filter: grayscale(100%) blur(3px);
 }
 
-//colour it
+//Navbar Styling
 nav {
   background-color: $background;
-  border-top: 1px solid;
-  border-color: #d0f5fb;
-}
-
-#foot-panel {
-  color: blue;
-}
-
-#foot-panel {
-  padding-top: 2rem;
-  background-color: whitesmoke;
-  .fa {
-    height: 4rem;
-  }
 }

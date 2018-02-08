@@ -13,13 +13,10 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <!--Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
 </head>
 <body>
 <div id="app">
-    <section class="navbar-light" style="background: #9AD3D7">
+    <section class="navbar-light themed">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center justify-content-between">
@@ -34,7 +31,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 horiz-align">
                     <img src="{{asset('/storage/pages/home/logo.png')}}" height="200" width="150">
-                    <h1>Welcome to Tweed Podiatry</h1>
+                    <h1 class="title">Tweed Podiatry</h1>
                 </div>
             </div>
         </div>
@@ -63,20 +60,19 @@
         @yield('content')
 
     <!-- Foot Contact Details -->
-    <section id="foot-panel" style="background-color: #9AD3D7">
+    <section id="foot-panel" class="themed navbar-light">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-4">
                     <p class="text-muted">
-                        Tel: 01573 228 098<br>
+                        <b>Tel:</b> 01573 228 098<br>
+                        <br> <b>Email: </b>robert@tweedpodiatry.com
                         <br>
-                        Address:<br>
+                        <b>Address:</b><br>
                         40-41 The Square<br>
                         Kelso<br>
                         Roxburghshire<br>
                         TD5 7HL<br>
-                        <br>
-                        Email: robert@tweedpodiatry.com
                     </p>
                 </div>
                 <div class="col-4 pull-right flex-center">

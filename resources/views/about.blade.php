@@ -1,17 +1,23 @@
 @extends('layouts.app')
 @section('content')
 
-    <section id="about" class="container">
-        <div class="row">
-            <div class="col-8 offset-2">
-                <h2 class="section-heading text-center">About Us</h2>
-                <p class="text-muted">The main ethos of Tweed Podiatry is to make sure the experience of every person
-                    visiting the
-                    practice is exceptional from start to finish and we aim to achieve this in a number of ways:
-                </p>
-            </div>
+    <main class="container-fluid">
 
-            <div class="col-md-6">
+        <section id="heading">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 text-center">
+                    <h2 class="section-heading">About Us</h2>
+                    <p class="text-muted">The main ethos of Tweed Podiatry is to make sure the experience of every person
+                        visiting the
+                        practice is exceptional from start to finish and we aim to achieve this in a number of ways:</p>
+                </div>
+            </div>
+        </section>
+
+    <section id="about">
+        <div class="row justify-content-center">
+
+            <div class="col-md-4">
                 <h5>A Warm Welcome</h5>
                 <p class="text-muted">
                     We want every visitor to feel right at home in our practice. Our friendly and experienced team are
@@ -37,7 +43,7 @@
                     to detail in our brand-new clinic fitted with state-of- art equipment.
                 </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <h5>Empowering Others</h5>
                 <p class="text-muted">
                     We are real believers in sharing our knowledge and expertise for two important reasons; to help our

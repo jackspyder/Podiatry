@@ -4,7 +4,7 @@
 
         <section id="heading">
             <div class="row justify-content-center">
-                <div class="col-xl-6 text-center">
+                <div class="col-lg-5 text-center">
                     <h2 class="section-heading">Booking</h2>
                     <p class="text-muted">if you're unsure about what type of appointment you require, take a look at
                         our

@@ -1,12 +1,21 @@
 @extends('layouts.app')
 @section('content')
-    <section class="container">
-        <div class="row">
-            <div class="col-md-8 offset-2">
-                <h2 class="section-heading text-center">Where are we?</h2>
-                <p class="text-muted">if you're unsure about what type of appointment you require, take a look at our
-                    services section or use the contact page to whatever</p>
+    <main class="container-fluid">
+
+        <section id="heading">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 text-center">
+                    <h2 class="section-heading">Contact & Referral</h2>
+                    <p class="text-muted">Please click on the option below if you wish to make contact as a member of
+                        the
+                        public. For healthcare professionals wishing to make a referral, please select the referral
+                        option.</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section>
+
+        </section>
+    </main>
 @endsection
