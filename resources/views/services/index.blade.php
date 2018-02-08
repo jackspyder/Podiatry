@@ -1,69 +1,31 @@
 @extends('layouts.app')
 @section('content')
 
-    <section id="services" class="bg-light">
-
-        <div class="medium hover">
-            <a href="{{url('/services')}}">
-                <div class="flex-center"><h3>Services</h3></div>
-                <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="SERVICE">
-            </a>
+    <section class="container" id="heading">
+        <div class="row">
+            <div class="col-md-8 offset-2 text-center">
+                <h2 class="section-heading">Services</h2>
+                <p class="text-muted">Take a look through the services we have on offer and visit our booking page to
+                    book an appointment or if you're unsure, use our contact form to arrange contact with a professional.</p>
+            </div>
         </div>
+    </section>
 
-        <div class="medium hover">
-            <a href="{{url('/services')}}">
-                <div class="flex-center"><h3>Services</h3></div>
-                <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="SERVICE">
-            </a>
-        </div>
+    <section class="container">
+        <div class="row justify-content-around">
 
-        <div class="medium hover">
-            <a href="{{url('/services')}}">
-                <div class="flex-center"><h3>Services</h3></div>
-                <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="SERVICE">
-            </a>
-        </div>
+            @foreach($services as $service)
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-3 ">
+                        <div class="card-body">
+                            <h4 class="card-title">{{ title_case($service->title) }}</h4>
+                            <p class="card-text">{{ title_case($service->summary) }}</p>
+                            <a href="/services/{{ $service->id }}" class="btn btn-primary">Read More!</a>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
 
-        <div class="medium hover">
-            <a href="{{url('/services')}}">
-                <div class="flex-center"><h3>Services</h3></div>
-                <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="SERVICE">
-            </a>
-        </div>
-
-        <div class="medium hover">
-            <a href="{{url('/services')}}">
-                <div class="flex-center"><h3>Services</h3></div>
-                <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="SERVICE">
-            </a>
-        </div>
-
-        <div class="medium hover">
-            <a href="{{url('/services')}}">
-                <div class="flex-center"><h3>Services</h3></div>
-                <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="SERVICE">
-            </a>
-        </div>
-
-        <div class="medium hover">
-            <a href="{{url('/services')}}">
-                <div class="flex-center"><h3>Services</h3></div>
-                <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="SERVICE">
-            </a>
-        </div>
-
-        <div class="medium hover">
-            <a href="{{url('/services')}}">
-                <div class="flex-center"><h3>Services</h3></div>
-                <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="SERVICE">
-            </a>
-        </div>
-
-        <div class="medium hover">
-            <a href="{{url('/services')}}">
-                <div class="flex-center"><h3>Services</h3></div>
-                <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="SERVICE">
-            </a>
         </div>
     </section>
 

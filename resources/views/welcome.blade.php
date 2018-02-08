@@ -4,43 +4,43 @@
     <section id="options" class="bg-light">
 
         <div class="medium hover">
-            <a href="{{url('/services')}}">
+            <a class="dim" href="{{url('/services')}}">
                 <div class="flex-center"><h3>Services</h3></div>
-                <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="SERVICE">
+                <img class="img-fluid" src="{{ asset('/storage/pages/home/ServicesTwo.jpeg') }}" title="SERVICE">
             </a>
         </div>
 
         <div class="large hover">
-            <a href="{{url('/conditions')}}">
+            <a class="dim" href="{{url('/conditions')}}">
                 <div class="flex-center"><h3>Conditions</h3></div>
-                <img class="img-fluid" src="http://placehold.it/400x360/0F5759/FFFFFF"
+                <img class="img-fluid" src="{{ asset('/storage/pages/home/Conditions.jpeg') }}"
                      alt="link to conditions page">
             </a>
         </div>
 
         <div class="medium hover">
-            <a href="{{url('/about')}}">
+            <a class="dim" href="{{url('/about')}}">
                 <div class="flex-center"><h3>About Us</h3></div>
                 <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="About">
             </a>
         </div>
 
         <div class="small hover">
-            <a href="{{url('/blog')}}">
+            <a class="dim" href="{{url('/blog')}}">
                 <div class="flex-center"><h3>Blog</h3></div>
                 <img class="img-fluid" src="{{ asset('storage/pages/home/Blog.jpeg') }}" title="Blog">
             </a>
         </div>
 
         <div class="small hover">
-            <a href="{{url('/contact')}}">
+            <a class="dim" href="{{url('/contact')}}">
                 <div class="flex-center"><h3>Contact</h3></div>
                 <img class="img-fluid" src="{{ asset('storage/pages/home/Contact.jpeg') }}" title="Contact">
             </a>
         </div>
 
         <div class="medium hover">
-            <a href="{{url('/book')}}">
+            <a class="dim" href="{{url('/book')}}">
                 <div class="flex-center"><h3>Booking</h3></div>
                 <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="BOOK">
             </a>

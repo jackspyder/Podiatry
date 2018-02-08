@@ -41,7 +41,7 @@
     </header><!--/masthead-->
 
     <!--navigation-->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+    <nav class="navbar navbar-expand-md sticky-top navbar-light">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,9 +60,7 @@
         </div>
     </nav><!--/nav-->
 
-    <main>
         @yield('content')
-    </main>
 
     <!-- Foot Contact Details -->
     <section id="foot-panel" style="background-color: #9AD3D7">
@@ -84,13 +82,13 @@
                 <div class="col-4 pull-right flex-center">
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com/tweedpodiatry" rel="noopener">
+                            <a href="https://www.facebook.com/tweedpodiatry" target="_blank" rel="noopener">
                                 <i class="fa fa-facebook fa-4x"></i>
                             </a>
                         </li>
 
                         <li class="list-inline-item">
-                            <a href="https://www.instagram.com" rel="noopener">
+                            <a href="https://www.instagram.com/tweed_podiatry/" target="_blank" rel="noopener">
                                 <i class="fa fa-instagram fa-4x"></i>
                             </a>
                         </li>
