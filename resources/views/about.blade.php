@@ -139,7 +139,7 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="heading">July 2017</h4>
-                                <h4 class="subheading">Attained an Msc</h4>
+                                <h4 class="subheading">Attained an MSc</h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">Awarded a Masters degree in Podiatric Surgery from Queen
@@ -156,11 +156,11 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="heading">August 2017</h4>
-                                <h4 class="subheading">Took position at footcare Scotland</h4>
+                                <h4 class="subheading">Took position at Footcare Scotland</h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">Appointed to the prestigious post of specialist
-                                    musculoskeletal podiatrist with Foot Care Scotland.</p>
+                                    musculoskeletal podiatrist with Footcare Scotland.</p>
                             </div>
                         </div>
                     </li>
