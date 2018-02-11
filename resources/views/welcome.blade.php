@@ -18,7 +18,7 @@
             <div class="medium hover">
                 <a class="dim" href="{{url('/about')}}">
                     <div class="flex-center"><h3>About Us</h3></div>
-                    <img class="img-fluid" src="http://placehold.it/400x180/0F5759/FFFFFF" title="About">
+                    <img class="img-fluid" src="{{ asset('/storage/pages/options/about.webp') }}" title="About">
                 </a>
             </div>
             <div class="small hover">
@@ -77,13 +77,13 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d258.38687314243055!2d-2.4347329381081324!3d55.598827556701536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a100554a238a0f8!2sHector+Innes+photography!5e0!3m2!1sen!2suk!4v1517955144360"
-                            width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9016.729057267694!2d-2.4342738!3d55.5988415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x45f822ef4532d580!2sTweed+Podiatry!5e0!3m2!1sen!2sie!4v1518390372326"
+                            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-3 align-content-center">
-                    <p class="text-muted align-self-center"> You can find us between X and Y at the Kelso Square as
-                        shown on this google maps link.
-                        our opening hours are:
+                    <p class="text-muted align-self-center"> You can find us next door to Rutherford's Micropub and 2
+                        doors down from the Cross Keys Hotel in Kelso town square.<br><br>
+                        Our opening hours are:
                         <br>Monday: 09:00 - 17:00
                         <br>Tuesday: Closed
                         <br>Wednesday: Closed
