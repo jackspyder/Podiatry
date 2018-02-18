@@ -31,7 +31,7 @@
                     We take your experience of being treated by us very seriously. We pride ourselves in offering the
                     highest standards of treatment that are both safe, effective, confidential and evidence-based. To
                     achieve this, our team are constantly engaging in new learning and training to stay on top of the
-                    latest developments in pediatric medicine.
+                    latest developments in podiatric medicine.
                 </p>
 
                 <h5 class="heading">Comprehensive Care</h5>
