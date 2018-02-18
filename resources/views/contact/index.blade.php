@@ -16,9 +16,9 @@
             <div class="row justify-content-center">
                 <div class="col-md-3">
                     <div class="card mb-3 ">
-                        <div class="card-body text-center">
-                            <h4 class="card-title heading">Professional Referral Form</h4>
-                            <p class="card-text">Referral form for professional use only.</p>
+                        <div class="card-body">
+                            <h4 class="card-title heading text-center">Professional Referral Form</h4>
+                            <p class="card-text text-center">Referral form for professional use only.</p>
                             <a href="/contact/referral" class="btn btn-primary">View Form</a>
                         </div>
                     </div>
@@ -26,9 +26,9 @@
 
                 <div class="col-md-3">
                     <div class="card mb-3 ">
-                        <div class="card-body text-center">
-                            <h4 class="card-title heading">Public Contact Form</h4>
-                            <p class="card-text">Contact form for all enquiries.</p>
+                        <div class="card-body">
+                            <h4 class="card-title heading text-center">Public Contact Form</h4>
+                            <p class="card-text text-center">Contact form for all enquiries.</p>
                             <a href="/contact/public" class="btn btn-primary">View Form</a>
                         </div>
                     </div>
