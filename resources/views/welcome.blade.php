@@ -46,7 +46,7 @@
                 <div class="col-lg-6">
                     <h2 class="heading text-center">Welcome to Tweed Podiatry</h2>
                     <p class="text-muted">
-                        At Tweed Podiatry, we understand that foot, ankle and lower limb problems can be incredibly
+                        At our clinic, we understand that foot, ankle and lower limb problems can be incredibly
                         painful
                         and have a real impact on your quality of life and your ability to enjoy activities of sport and
                         daily living. Whether you are a runner with a niggling pain keeping you from achieving your next
@@ -61,7 +61,7 @@
                         the
                         strategies we can implement to get you moving forward towards your goals.
                         <br><br>
-                        ~ Tweed Podiatry, The foot and ankle experts.
+                        ~  Robert McCririck - Practice Owner, Podiatrist, Lecturer.
                     </p>
                 </div>
             </div>

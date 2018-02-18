@@ -31,7 +31,7 @@
                     We take your experience of being treated by us very seriously. We pride ourselves in offering the
                     highest standards of treatment that are both safe, effective, confidential and evidence-based. To
                     achieve this, our team are constantly engaging in new learning and training to stay on top of the
-                    latest developments in pediatric medicine.
+                    latest developments in podiatric medicine.
                 </p>
 
                 <h5 class="heading">Comprehensive Care</h5>
@@ -40,7 +40,7 @@
                     foot,
                     ankle and lower limb conditions ranging from sports injuries to corn removal to nail surgery to
                     running analysis and the list goes on! All of our treatments are delivered with the same attention
-                    to detail in our brand-new clinic fitted with state-of- art equipment.
+                    to detail in our brand-new clinic fitted with state of the art equipment.
                 </p>
             </div>
             <div class="col-md-4">

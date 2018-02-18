@@ -6,9 +6,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5 text-center">
                     <h2 class="heading">Booking</h2>
-                    <p class="text-muted">If you're unsure about what type of appointment you require, take a look at
-                        our
-                        services section or use the contact page to arrange contact with a member of our team.</p>
+                    <p class="text-muted">If you are unsure about what type of appointment you require, please take a
+                        look at our services section for more information, get in touch by phone, email or via our
+                        online contact form and we will be happy to assist you.</p>
                 </div>
             </div>
         </section>
