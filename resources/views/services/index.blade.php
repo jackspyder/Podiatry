@@ -21,7 +21,7 @@
                         <div class="card mb-3 ">
                             <div class="card-body">
                                 <h4 class="card-title heading">{{ title_case($service->title) }}</h4>
-                                <p class="card-text">{{ title_case($service->summary) }}</p>
+                                <p class="card-text">{{ $service->summary }}</p>
                                 <a href="/services/{{ $service->id }}" class="btn btn-primary">Read More!</a>
                             </div>
                         </div>
