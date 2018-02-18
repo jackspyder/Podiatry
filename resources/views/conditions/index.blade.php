@@ -6,9 +6,10 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5 text-center">
                     <h2 class="heading">Conditions</h2>
-                    <p class="text-muted">Browse through our list of common podiatric conditions that may arise.
+                    <p class="text-muted">Browse through our list of common foot, ankle and lower limb conditions that
+                        may arise.
                         <br>
-                        Please note, this list is not exhaustive.</p>
+                        Please note, this list is not exhaustive and should not be used to self-diagnose.</p>
                 </div>
             </div>
         </section>
@@ -26,10 +27,6 @@
                                 <div class="card-img-overlay">
                                     <h4 class="card-title">{{ title_case($condition->title) }}</h4>
                                     <h5 class="card-subtitle">{{ title_case($condition->description) }}</h5>
-                                    {{--<p class="card-text">                                    --}}
-                                    {{--This is a wider card with supporting text below as a natural--}}
-                                    {{--lead-in to--}}
-                                    {{--additional content. This content is a little bit longer.</p>--}}
                                 </div>
                             </div>
                         </a>
