@@ -40,7 +40,7 @@
                     foot,
                     ankle and lower limb conditions ranging from sports injuries to corn removal to nail surgery to
                     running analysis and the list goes on! All of our treatments are delivered with the same attention
-                    to detail in our brand-new clinic fitted with state-of- art equipment.
+                    to detail in our brand-new clinic fitted with state of the art equipment.
                 </p>
             </div>
             <div class="col-md-4">
