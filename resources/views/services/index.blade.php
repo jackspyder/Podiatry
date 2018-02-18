@@ -6,10 +6,10 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5 text-center">
                     <h2 class="heading">Services</h2>
-                    <p class="text-muted">Take a look through the services we have on offer and visit our booking page
-                        to
-                        book an appointment or if you're unsure, use our contact form to arrange contact with a
-                        member of our team.</p>
+                    <p class="text-muted">We take pride in offering a comprehensive and extremely high-quality range of
+                        treatments for all manner of foot, ankle and lower limb conditions regardless of your age,
+                        activity levels or additional health problems. We are also registered with most major private
+                        health insurance organisations including Bupa.</p>
                 </div>
             </div>
         </section>
