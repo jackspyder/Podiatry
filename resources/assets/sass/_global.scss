@@ -33,34 +33,17 @@ body{
   filter: brightness(80%);
 }
 
-#contact{
-  .card {
-    height: 300px;
-  }
-}
 .card {
-  height: 350px;
+  min-height: 17rem;
 }
-
-#services{
-  .btn {
-    position: absolute;
-    bottom: 1rem;
-  }
-}
-#contact{
-  .btn {
-    position: absolute;
-    bottom: 1rem;
-  }
-}
-
 .card-img{
   width: 100%;
-  height: 300px;
+  height: 17rem;
   object-fit: cover;
   object-position: 50% 50%;
 }
+
+
 
 //masthead - split out.
 .horiz-align {
