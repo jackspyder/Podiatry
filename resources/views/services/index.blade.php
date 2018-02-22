@@ -18,11 +18,12 @@
             <div class="row justify-content-around">
                 @foreach($services as $service)
                     <div class="col-lg-4 col-md-6">
-                        <div class="card mb-3 ">
-                            <div class="card-body">
+                        <div class="card mb-3">
+                            <div class="card-body text-center">
                                 <h4 class="card-title heading">{{ title_case($service->title) }}</h4>
                                 <p class="card-text">{{ $service->summary }}</p>
-                                <a href="/services/{{ $service->id }}" class="btn btn-primary">Read More!</a>
+                                <a class="btn btn-primary" href="/services/{{ $service->id }}">Read
+                                    More!</a>
                             </div>
                         </div>
                     </div>

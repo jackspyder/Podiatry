@@ -15,7 +15,7 @@
         <section id="contact">
             <div class="row justify-content-center">
                 <div class="col-md-3">
-                    <div class="card mb-3 ">
+                    <div class="card mb-3">
                         <div class="card-body text-center">
                             <h4 class="card-title heading">Professional Referral Form</h4>
                             <p class="card-text">Referral form for professional use only.</p>
@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="col-md-3">
-                    <div class="card mb-3 ">
+                    <div class="card mb-3">
                         <div class="card-body text-center">
                             <h4 class="card-title heading">Public Contact Form</h4>
                             <p class="card-text">Contact form for all enquiries.</p>
