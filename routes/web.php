@@ -26,8 +26,9 @@ Route::get('/book', 'BookingsController@index'); //book
 Route::get('/contact', 'ContactController@index'); //contact
 Route::get('/contact/public', 'ContactController@public');
 Route::post('/contact/public',  'ContactController@mailToAdmin');
-Route::get('/contact/referral', 'ContactController@referral');
 
+Route::get('/contact/referral', 'ContactController@referral');
+Route::post('/contact/referral', 'ContactController@referToAdmin');
 
 
 Route::get('/about', 'HomeController@about');
