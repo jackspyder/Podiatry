@@ -92,7 +92,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-center">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="{{ asset('storage/robert.webp') }}"
+                        <img class="rounded-circle img-fluid" src="{{ asset('storage/robert.webp') }}"
                              alt="">
                         <h4>Mr Robert C McCririck MSc BSc(Hons) MChS HCPC reg.</h4>
                         <p class="text-muted">Podiatrist</p>
