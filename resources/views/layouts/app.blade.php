@@ -51,6 +51,7 @@
                     <a class="nav-item nav-link" href="{{url('/conditions')}}"><b>Conditions</b></a>
                     <a class="nav-item nav-link" href="{{url('/contact')}}"><b>Contact/Referral</b></a>
                     <a class="nav-item nav-link" href="{{url('/book')}}"><b>Booking</b></a>
+                    <a class="nav-item nav-link" href="{{url('/blog')}}"><b>Blog</b></a>
                     <a class="nav-item nav-link" href="{{url('/about')}}"><b>About</b></a>
                 </div>
             </div>

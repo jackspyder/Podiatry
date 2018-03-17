@@ -98,17 +98,17 @@
                         <p class="text-muted">Podiatrist</p>
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
+                                <a href="https://www.facebook.com/tweedpodiatry" target="_blank" rel="noopener">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#">
+                                <a href="https://www.instagram.com/tweed_podiatry/" target="_blank" rel="noopener">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/robert-mccririck-0390445b/" target="_blank" rel="noopener">
                                     <i class="fa fa-linkedin"></i>
                                 </a>
                             </li>
