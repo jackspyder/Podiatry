@@ -30,6 +30,9 @@ Route::post('/contact/public',  'ContactController@mailToAdmin');
 Route::get('/contact/referral', 'ContactController@referral');
 Route::post('/contact/referral', 'ContactController@referToAdmin');
 
+Route::get('/blog', 'PostsController@index');
+Route::get('/blog/{post}/', 'PostsController@show');
+
 
 Route::get('/about', 'HomeController@about');
 
