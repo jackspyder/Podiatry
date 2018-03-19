@@ -16,10 +16,10 @@ Route::get('/', function () {
 });
 
 Route::get('/conditions', 'ConditionsController@index');
-Route::get('/conditions/{condition}/', 'ConditionsController@show');
+Route::get('/conditions/{slug}/', 'ConditionsController@show');
 
 Route::get('/services', 'ServicesController@index'); //s
-Route::get('/services/{service}/', 'ServicesController@show');
+Route::get('/services/{slug}/', 'ServicesController@show');
 
 Route::get('/book', 'BookingsController@index'); //book
 
@@ -31,7 +31,7 @@ Route::get('/contact/referral', 'ContactController@referral');
 Route::post('/contact/referral', 'ContactController@referToAdmin');
 
 Route::get('/blog', 'PostsController@index');
-Route::get('/blog/{post}/', 'PostsController@show');
+Route::get('/blog/{slug}/', 'PostsController@show');
 
 
 Route::get('/about', 'HomeController@about');
