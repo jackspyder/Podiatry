@@ -4,7 +4,7 @@
 
         <section id="heading">
             <div class="row justify-content-center">
-                <div class="col-lg-5 text-center">
+                <div class="col-lg-8 text-center">
                     <h2 class="heading">Conditions</h2>
                     <p class="text-muted">Browse through our list of common foot, ankle and lower limb conditions that
                         may arise.
