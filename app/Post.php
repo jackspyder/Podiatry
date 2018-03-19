@@ -12,4 +12,9 @@ class Post extends Model
         'subtitle',
         'body'
     ];
+
+    public static function findBySlug($slug)
+    {
+        return static::where('slug', $slug)->first();
+    }
 }

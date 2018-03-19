@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <main class="container-fluid">
+    <main class="container">
 
         <section id="heading">
             <div class="row justify-content-center">
@@ -18,7 +18,7 @@
             <div class="row justify-content-around">
                 @foreach($conditions as $condition)
                     <div class="col-lg-4 col-md-6 text-center hover">
-                        <a class="dim" href="/conditions/{{ $condition->id }}">
+                        <a class="dim" href="/conditions/{{ $condition->slug }}">
                             <div class="card mb-3 text-white">
                                 <div class="dim">
                                     <img class="card-img" src="/storage/{{$condition->image}}"

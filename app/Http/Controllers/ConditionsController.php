@@ -47,9 +47,9 @@ class ConditionsController extends Controller
      * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($slug)
     {
-        $condition = Condition::findOrFail($id);
+        $condition = Condition::findBySlug($slug);
 
         return view('conditions.show', compact('condition'));
     }

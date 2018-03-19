@@ -18,6 +18,13 @@ body{
   background-color: whitesmoke;
 }
 
+.card-img-top{
+  display: block;
+  max-height: 600px;
+  width: 100%;
+  padding-top: 1rem
+}
+
 .flex-center {
   display: flex;
   align-items: center;

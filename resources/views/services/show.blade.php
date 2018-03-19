@@ -1,17 +1,20 @@
 @extends('layouts.app')
 
 @section('content')
-    <main class="container-fluid">
+    <main class="container">
         <section>
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <h2 class="heading text-center">{{ $service->title }}</h2>
-                    {{--<img src="/storage/{{$service->image}}" style="width: 100%">--}}
-                    {!! $service->body !!}
-
-                    <p>To book an appointment with us, please visit our booking page.</p>
+            <div class="row justify-content-center" style="padding-top: 4rem">
+                <div class="col-10 card mb-3">
+                    <div class="card-body">
+                        <h1 class="card-title heading"><b>{{$service->title}}</b></h1>
+                        <p class="card-text">{!! $service->body !!}</p>
+                        <p class="card-text">
+                            <small class="text-muted">Posted {{$service->created_at->diffForHumans()}}</small>
+                        </p>
+                    </div>
                 </div>
             </div>
+
         </section>
     </main>
 @endsection

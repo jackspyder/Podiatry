@@ -16,4 +16,9 @@ class Condition extends Model
         'help',
         'treatment'
     ];
+
+    public static function findBySlug($slug)
+    {
+        return static::where('slug', $slug)->first();
+    }
 }
