@@ -4,7 +4,7 @@
         <section>
             <div class="row justify-content-center" style="padding-top: 4rem">
                 <div class="col-12 card mb-3">
-                    <img class="card-img-top" src="/storage/{{$post->image}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{Voyager::image($post->image)}}" alt="Card image cap">
                     <div class="card-body">
                         <div class="col-lg-10">
                             <div class="label heading"><b>News</b><span> / </span> <span
