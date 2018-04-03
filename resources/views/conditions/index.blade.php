@@ -21,7 +21,7 @@
                         <a class="dim" href="/conditions/{{ $condition->slug }}">
                             <div class="card mb-3 text-white">
                                 <div class="dim">
-                                    <img class="card-img" src="/storage/{{$condition->image}}"
+                                    <img class="card-img" src="{{Voyager::image($condition->thumbnail('medium'))}}"
                                          alt="Card image">
                                 </div>
                                 <div class="card-img-overlay">
