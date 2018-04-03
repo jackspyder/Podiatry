@@ -5,38 +5,38 @@
             <div class="medium hover">
                 <a class="dim" href="{{url('/services')}}">
                     <div class="flex-center"><h3>Services</h3></div>
-                    <img class="img-fluid" src="{{ asset('/storage/pages/options/services.webp') }}" title="SERVICE">
+                    <img class="img-fluid" src="{{ asset('/storage/pages/options/services.jpeg') }}" title="SERVICE">
                 </a>
             </div>
             <div class="large hover">
                 <a class="dim" href="{{url('/conditions')}}">
                     <div class="flex-center"><h3>Conditions</h3></div>
-                    <img class="img-fluid" src="{{ asset('/storage/pages/options/conditions.webp') }}"
+                    <img class="img-fluid" src="{{ asset('/storage/pages/options/conditions.jpeg') }}"
                          alt="link to conditions page">
                 </a>
             </div>
             <div class="medium hover">
                 <a class="dim" href="{{url('/about')}}">
                     <div class="flex-center"><h3>About Us</h3></div>
-                    <img class="img-fluid" src="{{ asset('/storage/pages/options/about.webp') }}" title="About">
+                    <img class="img-fluid" src="{{ asset('/storage/pages/options/about.jpeg') }}" title="About">
                 </a>
             </div>
             <div class="small hover">
                 <a class="dim" href="{{url('/blog')}}">
                     <div class="flex-center"><h3>Blog</h3></div>
-                    <img class="img-fluid" src="{{ asset('storage/pages/options/blog.webp') }}" title="Blog">
+                    <img class="img-fluid" src="{{ asset('storage/pages/options/blog.jpeg') }}" title="Blog">
                 </a>
             </div>
             <div class="small hover">
                 <a class="dim" href="{{url('/contact')}}">
                     <div class="flex-center"><h3>Contact</h3></div>
-                    <img class="img-fluid" src="{{ asset('storage/pages/options/contact.webp') }}" title="Contact">
+                    <img class="img-fluid" src="{{ asset('storage/pages/options/contact.jpeg') }}" title="Contact">
                 </a>
             </div>
             <div class="medium hover">
                 <a class="dim" href="{{url('/book')}}">
                     <div class="flex-center"><h3>Booking</h3></div>
-                    <img class="img-fluid" src="{{ asset('storage/pages/options/booking.webp') }}" title="BOOK">
+                    <img class="img-fluid" src="{{ asset('storage/pages/options/booking.jpeg') }}" title="BOOK">
                 </a>
             </div>
         </section>
