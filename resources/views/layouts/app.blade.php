@@ -30,7 +30,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 horiz-align">
-                    <img src="{{asset('/storage/logo.webp')}}" height="200" width="150">
+                    <img src="{{asset('/storage/logo.png')}}" height="200" width="150">
                     <h1 class="title">Tweed Podiatry</h1>
                 </div>
             </div>
