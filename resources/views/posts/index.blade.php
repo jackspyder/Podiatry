@@ -18,7 +18,7 @@
 
             @foreach($posts as $post)
                 <div class="row justify-content-around">
-                    <div class="col-xl-12 col-lg-10 col-md-10 card mb-3">
+                    <div class="col-xl-8 col-lg-10 col-md-12 card mb-3">
                         <a href="/blog/{{$post->slug}}"><img class="card-img-top" src="{{Voyager::image($post->thumbnail('medium'))}}" alt="Card image cap"></a>
                         <div class="card-body">
                             <div class="label">News<span> / </span> <span
