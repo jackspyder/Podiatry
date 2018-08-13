@@ -85,10 +85,12 @@
                         doors down from the Cross Keys Hotel in Kelso town square.<br><br>
                         Our opening hours are:
                         <br>Monday: 09:00 - 17:00
-                        <br>Tuesday: Closed
+                        <br>Tuesday: 09:30 - 17:30
                         <br>Wednesday: Closed
-                        <br>Thursday: 09:00 - 17:00
+                        <br>Thursday: Closed
                         <br>Friday: 09:00 - 17:00
+                        <br>Saturday: 09:30 - 13:30
+                        <br>Sunday: Closed
                     </p>
                 </div>
             </div>
